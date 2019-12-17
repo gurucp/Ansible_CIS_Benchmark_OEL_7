@@ -1,9 +1,10 @@
-HarryHarcourt.Ansible-RHEL7-CIS-Benchmarks
+This repo is cloned from HarryHarcourt.Ansible-RHEL7-CIS-Benchmarks repo and adding Oracle Linux support
 =========
 
-All credit goes to anthcourtney for the original framework found here: https://github.com/anthcourtney/ansible-role-cis-amazon-linux
+All credit goes to anthcourtney for the original framework found here: https://github.com/anthcourtney/ansible-role-cis-amazon-linux and https://github.com/HarryHarcourt/Ansible-RHEL7-CIS-Benchmarks.git
 
-This implementation has been converted to Red Hat Enterprise Linux 7.X (tested 7.1 - 7.7) and CentOS 7.4 (tested 7.4 - 7.7, note CentOS version below 7.4 may have issues with SSH). 
+eloped and tested against Red Hat Linux 7.1, 7.2, 7.3, 7.4, 7.5, 7.6 and 7.7 using standard AWS AMI's.
+This role was developThis implementation has been converted to Red Hat Enterprise Linux 7.X (tested 7.1 - 7.7) and CentOS 7.4 (tested 7.4 - 7.7, note CentOS version below 7.4 may have issues with SSH) and Oracle Enterprise Linux (testing and adopting is in progress). 
 
 This implementation has been made idempotent in many places, and continues to be
 
@@ -11,8 +12,7 @@ This implementation allows the enabling of and configuration of some services.
 
 The CIS RHEL Linux Benchmark. <https://benchmarks.cisecurity.org/tools2/linux/CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.1.1.pdf>
 
-This role was developed and tested against Red Hat Linux 7.1, 7.2, 7.3, 7.4, 7.5, 7.6 and 7.7 using standard AWS AMI's.
-This role was developed and tested against CentOS 7.4 using standard AWS AMI's.
+This role was deved and tested against CentOS 7.4 using standard AWS AMI's.
 
 Why Would I Use This Role?
 --------------------------
@@ -170,5 +170,7 @@ Author Information
 The role was originally developed by [Anth Courtney](https://au.linkedin.com/in/anthcourtney).
 
 This role was further developed by [Ben Wright](https://www.linkedin.com/in/ben-wright-4a088033).
+
+And I am in the process of adding support to Oralce Linux
 
 All feedback, issues and PRs are encouraged and appreciated.
