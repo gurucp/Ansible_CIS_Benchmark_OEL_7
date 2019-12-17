@@ -6,6 +6,8 @@
 cis_target_os_distribution:
   - "RedHat"
   - "CentOS"
+  - "OracleLinux"
+
 cis_target_os_versions:
   - "7.1"
   - "7.2"
